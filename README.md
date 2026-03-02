@@ -1,1 +1,1 @@
-# web-portfolyo-olu-turuyorum
+# web-portfolyo-olusturuyorum
