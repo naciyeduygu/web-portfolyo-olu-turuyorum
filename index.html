@@ -1,37 +1,132 @@
-<html>
-<head>
+<!doctype html>
+<html lang="tr">
+ <head>
   <meta charset="UTF-8">
-  <title> Sitenizin başlığı </title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <!-- Üst alan -->
-  <header> 
-      <h1> Naciye Duygu </h1>
-  </header>
-  <!-- Navigasyon menüsü -->
-  <nav>
-      <ul>
-        <li> <a href="index.html"> Ana Sayfa </li>
-        <li> <a href="pages/about.html"> Ana Sayfa </li>
-        <li> <a href="pages/projeler.html"> Projeler </li>
-        <li> <a href="pages/contact.html"> İletişim </li>
-      </ul>
-  </nav>
-  <!-- Ana içerik -->
-  <main>
-    <section>
-        <h2> Hoş geldiniz </h2>
-        <p> Bu benim kişisel portfolyo sitem </p>
-    </section>
-    <section>
-      <h2> Projelerim </h2>
-      <p> Yakında düzenlenecek </p>
-    </section>
-  </main>
-  <!-- Alt alan -->
-  <footer>
-     <p> © 2026 Tüm hakları saklıdır... </p>
-  </footer>
-</body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naciye Duygu - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>body { box-sizing: border-box; }</style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="/_sdk/element_sdk.js" type="text/javascript"></script>
+ </head>
+ <body>
+  <div class="main-wrapper"><!-- Hero Section -->
+   <section class="hero">
+    <div class="hero-content">
+     <h1 class="hero-title" id="heroTitle">Naciye Duygu</h1>
+     <p class="hero-subtitle" id="heroSubtitle">Computer Science Student &amp; Creative Developer</p>
+     <p class="hero-bio" id="heroBio">2nd year Computer Science student passionate about coding, cats, films, and cooking.</p>
+    </div>
+   </section><!-- Passions Section -->
+   <section class="section">
+    <h2 class="section-title" id="passionTitle">What I Love</h2>
+    <div class="passion-grid">
+     <div class="passion-card"><span class="passion-emoji">💻</span>
+      <div class="passion-name">
+       Programming
+      </div>
+      <div class="passion-desc">
+       Building creative solutions with code
+      </div>
+     </div>
+     <div class="passion-card"><span class="passion-emoji">😺</span>
+      <div class="passion-name">
+       Cats
+      </div>
+      <div class="passion-desc">
+       My favorite furry friends
+      </div>
+     </div>
+     <div class="passion-card"><span class="passion-emoji">🎬</span>
+      <div class="passion-name">
+       Films
+      </div>
+      <div class="passion-desc">
+       Stories that inspire me
+      </div>
+     </div>
+     <div class="passion-card"><span class="passion-emoji">🍳</span>
+      <div class="passion-name">
+       Cooking
+      </div>
+      <div class="passion-desc">
+       Creating delicious experiences
+      </div>
+     </div>
+    </div>
+   </section><!-- Projects Section -->
+   <section class="section">
+    <h2 class="section-title" id="projectTitle">My Projects</h2>
+    <div class="project-grid">
+     <div class="project-card">
+      <div class="project-icon">
+       📱
+      </div>
+      <div class="project-name">
+       Mobile App Project
+      </div>
+      <div class="project-desc">
+       A mobile application built during my second year studies, focusing on user interface design.
+      </div>
+     </div>
+     <div class="project-card">
+      <div class="project-icon">
+       🌐
+      </div>
+      <div class="project-name">
+       Web Development
+      </div>
+      <div class="project-desc">
+       Various web projects exploring HTML, CSS, JavaScript, and modern frameworks.
+      </div>
+     </div>
+     <div class="project-card">
+      <div class="project-icon">
+       🎮
+      </div>
+      <div class="project-name">
+       Game Development
+      </div>
+      <div class="project-desc">
+       Small games and interactive projects created for learning and fun.
+      </div>
+     </div>
+    </div>
+   </section><!-- Skills Section -->
+   <section class="section">
+    <h2 class="section-title" id="skillsTitle">Technical Skills</h2>
+    <div class="skills-section">
+     <div class="skill-category">
+      <div class="skill-category-title">
+       Languages
+      </div>
+      <div class="skills-list"><span class="skill-tag">Python</span> <span class="skill-tag">JavaScript</span> <span class="skill-tag">Java</span> <span class="skill-tag">C++</span> <span class="skill-tag">SQL</span>
+      </div>
+     </div>
+     <div class="skill-category">
+      <div class="skill-category-title">
+       Web Technologies
+      </div>
+      <div class="skills-list"><span class="skill-tag">HTML/CSS</span> <span class="skill-tag">React</span> <span class="skill-tag">Node.js</span> <span class="skill-tag">Responsive Design</span>
+      </div>
+     </div>
+     <div class="skill-category">
+      <div class="skill-category-title">
+       Tools &amp; Platforms
+      </div>
+      <div class="skills-list"><span class="skill-tag">Git</span> <span class="skill-tag">VS Code</span> <span class="skill-tag">GitHub</span> <span class="skill-tag">Database Design</span>
+      </div>
+     </div>
+    </div>
+   </section><!-- Footer Section -->
+   <section class="footer-section">
+    <div class="social-links"><a href="https://github.com" class="social-link" target="_blank" rel="noopener noreferrer">💻</a> <a href="https://linkedin.com" class="social-link" target="_blank" rel="noopener noreferrer">🔗</a> <a href="mailto:your.email@example.com" class="social-link">📧</a>
+    </div>
+    <p class="footer-text">Let's create something amazing together!</p>
+    <p class="footer-text" style="font-size: 0.85rem; opacity: 0.7;">© 2024 Naciye Duygu. All rights reserved.</p>
+   </section>
+  </div>
+  <script src="script.js"></script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d97d0caa7cd561e',t:'MTc3MzAzNTU2OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
